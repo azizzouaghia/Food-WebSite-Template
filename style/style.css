@@ -1,0 +1,157 @@
+.ttoppage {
+    background-image: url("../img/pexels-photo-7545837.jpeg") !important;
+    color: white; 
+background-size: cover;
+background-position: 0px -850px ;
+}
+
+.ttoppage p {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.ttoppage h1 {
+    margin-top: 150px;
+}
+
+.butnread {
+    margin-right: 25px;
+}
+.nav-link {
+    color: white !important;
+}
+
+.ttoppage input {
+    background-color: transparent ;
+    border: solid 1px white;
+    padding: 3px 0px 3px 10px;
+    color: white !important;
+    width: 65%;
+    margin-left: 50px;
+}
+::placeholder {
+    color: white;
+}
+
+.fa-search {
+    position: absolute;
+    left: 249px;
+top: 50px;
+}
+
+.img-1 {
+    width: 200px;
+}
+ .ttoppage button {
+     margin-bottom: 30px;
+ }
+
+.thirds .img1 {
+    background-image: url("../img/pexels-photo-7865977.jpeg");
+    background-position: -25px -150px;
+    background-size: 600px;
+}
+.thirds .section1 {
+    background-color:#f0cf56 ;
+    color: #ffff;
+}
+
+.thirds h1 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.thirds p {
+    margin-bottom: 50px;
+}
+
+.thirds button{
+    margin-bottom: 25px;
+}
+
+.fourths img {
+    height:400px !important;
+}
+
+.fourths{
+    margin: auto;
+    width: 600px !important;
+    margin-bottom: 30px !important;
+}
+
+.fourths .readmorebtn {
+margin-left: 40%;
+}
+
+
+@media screen and (max-width: 750px) {
+    .ttoppage {
+        background-position:center !important ;
+    }
+     .ttoppage input {
+width: 150px;
+margin-left: 0px;
+margin-top: 0px;
+    }
+
+    .fa-search {
+        position: absolute;
+        left: 140px;
+    top: 50px;
+    }
+    
+  .seconds img {
+      width: 100px;
+  }
+  .seconds p {
+      font-size: 10px;
+  }
+  .seconds h5 {
+      font-size: 14px;
+  }
+  .seconds h3 {
+      font-size: 20px;
+      font-weight: bold;
+  }
+.ttoppage p {
+    font-size: 14px;
+    width: 400px;
+}
+.ttoppage h1 {
+    margin-top: 50px;
+}
+.ttoppage .butnread {
+    margin-bottom: 50px;
+}
+.thirds .img1 {
+    background-image: url("../img/pexels-photo-7865977.jpeg");
+    background-position: -40px -500px;
+    background-size: 400px;
+}
+.thirds .section1 {
+    background-color:#f0cf56 ;
+    color: #ffff;
+}
+
+.thirds h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.thirds p {
+    margin-bottom: 20px;
+}
+.thirds button {
+    margin-bottom: 50px;
+}
+.fourths img {
+    height:300px !important;
+}
+
+.fourths{
+    margin: auto;
+    width: 400px !important;
+    margin-bottom: 30px !important;
+}
+  }
