@@ -1,3 +1,8 @@
+html,body {
+        overflow-x: hidden !important;
+        text-align: center !important;
+}
+
 .ttoppage {
     background-image: url("../img/pexels-photo-7545837.jpeg") !important;
     color: white; 
@@ -18,22 +23,6 @@ background-position: 0px -850px ;
 .butnread {
     margin-right: 25px;
 }
-.nav-link {
-    color: white !important;
-}
-
-.ttoppage input {
-    background-color: transparent ;
-    border: solid 1px white;
-    padding: 3px 0px 3px 10px;
-    color: white !important;
-    width: 65%;
-    margin-left: 50px;
-}
-::placeholder {
-    color: white;
-}
-
 .fa-search {
     position: absolute;
     left: 249px;
@@ -43,8 +32,8 @@ top: 50px;
 .img-1 {
     width: 200px;
 }
- .ttoppage button {
-     margin-bottom: 30px;
+ .navbar-brand {
+    padding-left: 45%;
  }
 
 .thirds .img1 {
@@ -74,6 +63,15 @@ top: 50px;
     height:400px !important;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:darkorange;
+}
+
 .fourths{
     margin: auto;
     width: 600px !important;
@@ -81,10 +79,35 @@ top: 50px;
 }
 
 .fourths .readmorebtn {
-margin-left: 40%;
+margin-left: 0%;
 }
 
+/* To Top Starts */
+#myBtn {
+    font-size: 50px;
+    opacity: 70%;
+    color: darkorange;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
 
+#myBtn:hover {
+    opacity: 100%;
+}
+
+/* To Top Ends */
+
+
+
+/*** Small Screens Version  ***/
 @media screen and (max-width: 750px) {
     .ttoppage {
         background-position:center !important ;
@@ -151,7 +174,34 @@ margin-top: 0px;
 
 .fourths{
     margin: auto;
-    width: 400px !important;
+    width: 100% !important;
     margin-bottom: 30px !important;
 }
+
+ .navbar-brand {
+     padding-left: 43%;
+ }
+
+ /* To Top Starts */
+ #myBtn {
+     font-size: 45px;
+     opacity: 70%;
+     color: darkorange;
+     display: none;
+     position: fixed;
+     bottom: 20px;
+     right: 0px;
+     z-index: 99;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 15px;
+     border-radius: 4px;
+ }
+
+ #myBtn:hover {
+     opacity: 100%;
+ }
+
+ /* To Top Ends */
   }

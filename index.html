@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/bootstrap.css">
     <link rel="stylesheet" href="style/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,47 +10,44 @@
 </head>
 <body>
     
-<!-- Navbar + section 1 -->
+<!-- Navbar Starts --> <!-- Section 1 Starts -->
 
 <section class="ttoppage">
-<nav class="navbar pt-4 navbar-light">
-    <div class="container-fluid">
-        <form class="d-flex">
-            <input class=" me-2" type="search" placeholder="Search" aria-label="Search">
-            <i class="fas fa-search"></i>
-          </form>      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class=" offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-       
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="#">About</a>
-              </li>    <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
-              </li>
-        </div>
-      </div>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Food</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#sec2">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#sec4">Learn</a>
+        </li>
     </div>
-  </nav>
+  </div>
+</nav>
+  <!-- Navbar Ends -->
   <div class="des"></div>
   <h1 class="text-center">Natural Food</h1>
   <p>
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.      
   </p>
   <div class="btngr mt-5 pb-4 text-center">
-    <button class="butnread btn btn-success">READ MORE</button>
-    <button class="butnread btn btn-light">VIEW ALL RECIPES</button>
+    <button class="butnread btn btn-success"><a href="#sec3">READ MORE</a></button>
+    <button class="butnread btn btn-danger"><a href="#sec2">VIEW ALL RECIPES</a></button>
 </div>
 </section>
-<!-- section 2 -->
-<section class="mt-5 seconds">
+<!-- Section 1 Ends -->
+
+<!-- Section 2 Starts -->
+<section id="sec2" class="mt-5 seconds">
     <div class="container">
-        <!-- first row -->
+        <!-- First Row -->
         <div class="row">
             <div class="col-3">
                 <img class="img-1" src="img/3.png" alt="salad">
@@ -69,7 +66,7 @@
                 <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
             </div>
         </div>
-            <!-- second row -->
+            <!-- Second Row -->
             <div class="row">
                 <div class="col-3">
                     <img class="img-1" src="img/1.png" alt="salad">
@@ -90,9 +87,10 @@
             </div>
     </div>
 </section>
+<!-- Section 2 Ends -->
 
-<!-- section 3 -->
-<section class="thirds">
+<!-- Section 3 Starts -->
+<section id="sec3" class="thirds">
     <div class="container">
         <div class="row mb-5">
             <div class=" section1 text-center col-6">
@@ -100,14 +98,14 @@
                 <p class="mt-3">
                     Duis ultricies lacus sed turpis tincidunt id aliquet risus. Bibendum est ultricies integer quis auctor. Id eu nisl nunc mi. Eget nunc scelerisque  in aliquam. Malesuada proin libero nunc consequat interdum.
                 </p>
-                <button class="btn btn-success">READ MORE</button>
+                <button class="btn btn-success"><a href="#sec4">READ MORE</a></button>
             </div>
             <div class="img1 col-6">
             </div> 
         </div>
     </div>
 </section>
-
+<!-- Section 3 Ends -->
 
 <!-- text -->
 <div class="text-center mb-5">
@@ -115,8 +113,8 @@
 <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
 </div>
 
-<!-- section 3 -->
-<section class="fourths">
+<!-- Section 4 Starts -->
+<section id="sec4" class="fourths">
 <div class="container">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -149,12 +147,14 @@
         </button>
       </div>   
     </div>    
-    <button class="text-center btn btn-success mt-5 readmorebtn">READ MORE</button>     
 </section>
+<!-- Section 4 Ends -->
+<!-- To Top Starts -->
+<i class="fas fa-arrow-up" id="myBtn"></i>
+<!-- To Top Ends -->
 
 </body>
-<script src="https://kit.fontawesome.com/bb11b5e11e.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/font.js"></script>
+<script src="./js/main.js"></script>
 </html>
