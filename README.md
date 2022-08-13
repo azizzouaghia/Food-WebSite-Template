@@ -7,6 +7,6 @@ A Restaurant Responsive template.
 - JS + FontAwesome
 
 #### Review
-Link: [HERE](https://azizzouaghia.github.io/Food)
+Link: [HERE](https://azizzouaghia.github.io/Food-WebSite-Template/)
 
 <img src="https://i.postimg.cc/PXf2fWY6/food.png" width="400" height="600" />
