@@ -9,4 +9,4 @@ A Restaurant Responsive template.
 #### Review
 Link: [HERE](https://azizzouaghia.github.io/Food-WebSite-Template/)
 
-<img src="https://i.postimg.cc/PXf2fWY6/food.png" width="400" height="600" />
+<img src="https://i.ibb.co/3TQs2wc/all-devices-white-4.png" />
